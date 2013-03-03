@@ -29,9 +29,11 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="map_acceptance_dialog_title">%1$s quiere acceder a las carpetas del terminal. ¿Permitir el acceso a %2$s?</string>
-    <string name="map_acceptance_dialog_header">Acceso a carpetas del terminal</string>
-    <string name="map_notif_title">Solicitud de clave de sesión para perfil MAP</string>
-    <string name="map_notif_message">Permitido el acceso a la carpeta raíz para %1$s</string>
-    <string name="map_alert_conn_failed_message">Falló la conexión Bluetooth para el perfil MAP.</string>
+    <string name="map_acceptance_dialog_title">Η συσκευή %1$s ζητά πρόσβαση στους φακέλους του τηλεφώνου σας. Να επιτραπεί η πρόσβαση στο %2$s;</string>
+    <string name="map_acceptance_dialog_header">Πρόσβαση φακέλων τηλεφώνου</string>
+    <!-- Notification title when a Bluetooth device wants to pair with us -->
+    <string name="map_notif_title">Κλειδί περιόδου σύνδεσης MAP</string>
+    <!-- Notification message when a Bluetooth device wants to pair with us -->
+    <string name="map_notif_message">Να επιτραπεί προσβαση root στους φακέλους από το %1$s</string>
+    <string name="map_alert_conn_failed_message">Η σύνδεση Bluetooth MAP απέτυχε</string>
 </resources>
